@@ -12,7 +12,6 @@ const MainNavigation = () => {
 
   const openDrawer = () => {
     setDrawerIsOpen(true);
-    console.log('COOL!');
   };
 
   const closeDrawer = () => {

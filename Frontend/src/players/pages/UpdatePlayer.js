@@ -93,7 +93,6 @@ const UpdatePlayer = () => {
   const formSubmitHandler = async (event) => {
     event.preventDefault();
 
-    console.log(formState);
     try {
       await sendRequest(
         `${process.env.REACT_APP_PLAYERS_BACKEND_URL}/update/${playerId}`,

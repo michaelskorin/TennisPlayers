@@ -55,21 +55,8 @@ const NewPlayer = () => {
     false
   );
 
-  // const addDummyPlayer = () => {
-  //   MOCK_PLAYERS.push({
-  //     id: MOCK_PLAYERS.length,
-  //     name: formState.inputs.name.value,
-  //     country: formState.inputs.country.value,
-  //     age: formState.inputs.age.value,
-  //     grand_slams: formState.inputs.grand_slams.value,
-  //     ranking: null,
-  //     points: formState.inputs.points.value,
-  //   });
-  // };
-
   const formSubmitHandler = async (event) => {
     event.preventDefault();
-    console.log(formState);
 
     try {
       const formData = new FormData();
